@@ -1,0 +1,29 @@
+*{
+    margin: 0%
+}
+div{
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+ #header {
+    opacity:0,4;
+    width: 1Fr; height: 150px;
+    opacity :0,4;
+    border: rgba(0,0.0,0,3) 3px solid;
+    background: url("img03.png") no-repeat scroll right yellow;
+    background-size: 200px;
+ }
+
+ #Meu-site{
+    border: rgba(0,0,0,0,8) 3 px solid;
+    margin: 10px 20px;
+    width: 200px;
+    text-align: center;
+
+ }
+
+ #all{
+    width: 1Fr;
+    height: 90vh;
+ }
