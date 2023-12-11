@@ -1,0 +1,45 @@
+body{
+    background-color:aquamarine;
+    border: 30px pink;
+}
+.titulo{
+    background-color: aliceblue;
+    grid-area: titulo;
+}
+
+.conteudo{
+    background-color: bisque;
+    grid-area: conteudo; 
+}
+
+.menuR{
+    background-color: rgb(127, 229, 255);
+    grid-area: menuR;
+  
+}
+
+.menuL {
+    background-color: violet;
+    grid-area: menuL;
+   
+   
+}
+
+.rodape{
+    background-color: beige;
+    grid-area: rodape;
+   
+
+}
+
+.box{
+    height: 600px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "menuL titulo menuR"
+                          "menuL conteudo menuR"
+                          "menuL rodape menuR";
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 100px 1fr 100px;
+                
+}

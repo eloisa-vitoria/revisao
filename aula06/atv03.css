@@ -1,0 +1,35 @@
+.body{
+    background-color: black;
+}
+.box{
+    background-color: pink;
+    display: grid;
+    height: 600px;
+    grid-template-areas: "a1 a1 a1"
+                          "a2 a2 a3"
+                          "a4 a4 a3";
+grid-template-rows:100px 1fr 200px;
+grid-template-columns: 100px 1fr 300px;
+}
+ 
+.a1{
+    background-color: aqua;
+    align-items: end;
+    justify-content: end;
+    grid-area: a1;
+    padding-left:1250px ;
+    padding-top: 15px;
+}
+.a2{
+    background-color: antiquewhite;
+    grid-area: a2;
+}
+.a3{
+    background-color: blue;
+    grid-area: a3;
+
+}
+.a4{
+    background-color: brown;
+    grid-area:a4;
+}

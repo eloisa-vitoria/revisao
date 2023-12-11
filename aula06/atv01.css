@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    height: 350px;
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "titulo o1 "
+                          "rodape eloisa";
+    grid-template-rows: 1Fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+}
+.titulo{
+    background-color: blueviolet;
+    grid-area: titulo;
+    
+}
+
+
+.rodape{
+    background-color: aqua;
+    grid-area: rodape;
+   
+
+}
+.eloisa{
+    background-color: pink;
+    grid-area: eloisa;
+}
+
+.o1{
+    grid-area: o1;
+    background-color: aqua;
+}
+
